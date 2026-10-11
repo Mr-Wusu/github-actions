@@ -7,5 +7,5 @@ jobs:
       - name: print hello
         run: echo "Hello world"
       - name: bye
-        run: echo "Bye ${{vars.MY_NAME}}"
+        run: echo "Bye ${{ vars.MY_NAME }}"
       
