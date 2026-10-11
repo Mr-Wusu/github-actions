@@ -14,5 +14,5 @@ jobs:
       - name: print hello
         run: echo "Hello world"
       - name: bye
-        run: echo "Bye bye!"
+        run: echo "Bye bye! ${{ secrets.DOCKER_PASSWORD }}"
       
